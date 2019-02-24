@@ -1,0 +1,76 @@
+body{
+    background: url(http://avante.biz/wp-content/uploads/Time-Wallpaper/Time-Wallpaper-016.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+#alarmTime{
+    border: double 3px rgb(60, 63, 66);
+    position: absolute; 
+    bottom: 450px;
+    left: 120px;
+    text-align: center;
+    
+    
+}
+
+#alarmButton{
+    border: solid 1px whitesmoke;
+    padding: 4px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    color: whitesmoke;
+    position:absolute;
+    bottom: 420px;
+    left: 179px;
+    box-shadow: 2px 2px 1px rgb(119, 119, 121);    
+}
+
+#alarmButton:hover{
+    box-shadow: -2px 2px 1px rgb(255, 255, 255);
+}
+
+#optionButtonSnooze{
+    position: absolute;
+    bottom: 420px;
+    left: 100px;
+    border: solid 1px whitesmoke;
+    padding: 4px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    color: whitesmoke;
+    box-shadow: 2px 2px 1px rgb(30, 124, 30);   
+}
+
+#optionButtonStop{
+    position: absolute;
+    bottom: 420px;
+    left: 250px;
+    border: solid 1px whitesmoke;
+    padding: 4px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    color: whitesmoke;
+    box-shadow: 2px 2px 1px rgb(141, 13, 13);   
+}
+
+div#image{
+    content: url(http://www.aleksandra.nl/kogut1.gif);
+   position: absolute;
+   right: 100px;
+   bottom: 300px;
+}
+
+#cancelSnooze{
+    position: absolute;
+    bottom: 380px;
+    left: 165px;
+    border: solid 1px whitesmoke;
+    padding: 4px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    color: whitesmoke;
+    box-shadow: 2px 2px 1px rgb(141, 13, 13); 
+}
