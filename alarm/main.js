@@ -51,7 +51,7 @@ var clearSet;
 
 function snooze(){
 stopAlarm();
-clearSet = setTimeout(initAlarm, 60000);
+clearSet = setTimeout(initAlarm, 300000);
 document.getElementById('alarmButton').style.display = '';
 document.getElementById('cancelSnooze').style.display = '';
 };

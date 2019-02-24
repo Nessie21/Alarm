@@ -9,7 +9,7 @@ body{
 #alarmTime{
     border: double 3px rgb(60, 63, 66);
     position: absolute; 
-    bottom: 450px;
+    top: 300px;
     left: 120px;
     text-align: center;
     
@@ -23,7 +23,7 @@ body{
     background-color: transparent;
     color: whitesmoke;
     position:absolute;
-    bottom: 420px;
+    top: 330px;
     left: 179px;
     box-shadow: 2px 2px 1px rgb(119, 119, 121);    
 }
@@ -34,7 +34,7 @@ body{
 
 #optionButtonSnooze{
     position: absolute;
-    bottom: 420px;
+    top: 330px;
     left: 100px;
     border: solid 1px whitesmoke;
     padding: 4px;
@@ -46,7 +46,7 @@ body{
 
 #optionButtonStop{
     position: absolute;
-    bottom: 420px;
+    top: 330px;
     left: 250px;
     border: solid 1px whitesmoke;
     padding: 4px;
@@ -60,12 +60,12 @@ div#image{
     content: url(http://www.aleksandra.nl/kogut1.gif);
    position: absolute;
    right: 100px;
-   bottom: 300px;
+   top:200px;
 }
 
 #cancelSnooze{
     position: absolute;
-    bottom: 380px;
+    top: 360px;
     left: 165px;
     border: solid 1px whitesmoke;
     padding: 4px;
